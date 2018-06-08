@@ -12,21 +12,22 @@
 
 Terra's sharable ESLint configuration for their UI library and build tools.
 
-## What is Eslist?
-
-[ESlint](https://eslint.org/) is a pluggable linting utility for JavaScript and JSX.
-
 Features:
 - extends the  [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), which exports ESLint rules, including rules for ECMAScript 6+ and React.
 - checks syntax for targeted browsers support via the [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat). It is recommended to use Terra's targeted browsers which are specified by the [browserslist-config-terra](https://github.com/cerner/browserslist-config-terra) module.
 - defines the browser and jest environment
 - defines enzyme globals for `shallow`, `render` and `mount` for jest testing
 
+## What is Eslist?
+
+[ESlint](https://eslint.org/) is a pluggable linting utility for JavaScript and JSX.
+
 ## Installation
 
 Install the module
 
 ```shell
+$ npm install eslint --save-dev
 $ npm install eslint-config-terra --save-dev
 ```
 
