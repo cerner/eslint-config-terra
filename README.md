@@ -14,8 +14,13 @@ Terra's sharable ESLint configuration for their UI library and build tools.
 
 ## What is Eslist?
 
-[ESlint](https://eslint.org/) is a pluggable linting utility for JavaScript and JSX. It extends the  [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), which exports ESLint rules, including rules for ECMAScript 6+ and React. Additionally, `eslint-config-terra` utilizes the [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) plugin to check if the syntax used is supported by the browsers being targeted. It is recommended to use Terra's targeted browsers which are specified by the [browserslist-config-terra](https://github.com/cerner/browserslist-config-terra) module.
+[ESlint](https://eslint.org/) is a pluggable linting utility for JavaScript and JSX.
 
+Features:
+- extends the  [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), which exports ESLint rules, including rules for ECMAScript 6+ and React.
+- checks syntax for targeted browsers support via the [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat). It is recommended to use Terra's targeted browsers which are specified by the [browserslist-config-terra](https://github.com/cerner/browserslist-config-terra) module.
+- defines the browser and jest environment
+- defines enzyme globals for `shallow`, `render` and `mount` for jest testing
 
 ## Installation
 
@@ -23,14 +28,12 @@ Install the module
 
 ```shell
 $ npm install eslint-config-terra --save-dev
-$ npm install browserslist-config-terra --save-dev
 ```
 
-
 ## Usage
-The configuration provided can be extended/overriding. Read more about it [here](https://stylelint.io/user-guide/configuration/#extends).
+First, include the configuration defined by `eslint-config-terra` via the  [extends](https://eslint.org/docs/user-guide/configuring#extending-configuration-files) property.
 
-Then, to define the browsers for the `eslint-plugin-compat` plugin, add the browserslist configuration in your package.json. Read more about it [here](https://github.com/amilajack/eslint-plugin-compat#targeting-browsers). 
+Then, [define the browsers](https://github.com/amilajack/eslint-plugin-compat#targeting-browsers) for the `eslint-plugin-compat` plugin to target by add the browsers list configuration in your package.json through the `browserslist` key.
 
 ### package.json
 ```json
