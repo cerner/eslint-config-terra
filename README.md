@@ -1,6 +1,6 @@
 <!-- Logo -->
 <p align="center">
-  <img height="128" width="128" src="https://github.com/cerner/browserslist-config-terra/raw/master/terra.png">
+  <img height="128" width="128" src="https://github.com/cerner/eslint-config-terra/raw/master/terra.png">
 </p>
 
 <!-- Name -->
@@ -8,17 +8,13 @@
   Terra Eslint Config
 </h1>
 
-[![NPM version](http://img.shields.io/npm/v/terra-toolkit.svg)](https://www.npmjs.org/package/browserslist-config-terra)
+[![NPM version](http://img.shields.io/npm/v/terra-toolkit.svg)](https://www.npmjs.org/package/eslint-config-terra)
 
-This configuration reflects Terra's supported browser policy for their UI library and build tools.
+Terra's sharable ESLint configuration for their UI library and build tools.
 
-## What is Browserslist?
+## What is Eslist?
 
-[ESlint](https://github.com/ai/browserslist) is a library to share a browsers list between different front-end tools, like Autoprefixer, Eslint, and Stylelint.
-
-* Valid Browserslist query syntax validation[browserl.ist](http://browserl.ist)
-* ["Browserslist is a Good Idea"](https://css-tricks.com/browserlist-good-idea/) (blog post by [@chriscoyier](https://github.com/chriscoyier))
-
+[ESlint](https://eslint.org/) is a pluggable linting utility for JavaScript and JSX. It extends the  [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb), which exports ESLint rules, including rules for ECMAScript 6+ and React. Additionally, `eslint-config-terra` utilizes the [eslint-plugin-compat](https://github.com/amilajack/eslint-plugin-compat) plugin to check if the syntax used is supported by the browsers being targeted. It is recommended to use Terra's targeted browsers which are specified by the [browserslist-config-terra](https://github.com/cerner/browserslist-config-terra) module.
 
 
 ## Installation
@@ -26,25 +22,31 @@ This configuration reflects Terra's supported browser policy for their UI librar
 Install the module
 
 ```shell
-$ npm install browserslist-config-terra
+$ npm install eslint-config-terra --save-dev
+$ npm install browserslist-config-terra --save-dev
 ```
 
 
 ## Usage
+The configuration provided can be extended/overriding. Read more about it [here](https://stylelint.io/user-guide/configuration/#extends).
+
+Then, to define the browsers for the `eslint-plugin-compat` plugin, add the browserslist configuration in your package.json. Read more about it [here](https://github.com/amilajack/eslint-plugin-compat#targeting-browsers). 
 
 ### package.json
-
 ```json
 {
   "browserslist": [
     "extends browserslist-config-terra"
-  ]
+  ],
+  "eslintConfig": {
+    "extends": "terra"
+  },
 }
 ```
 
 ## Versioning
 
-browserslist-config-terra is considered to be stable and will follow [SemVer](http://semver.org/) for versioning.
+eslint-config-terra is considered to be stable and will follow [SemVer](http://semver.org/) for versioning.
 1. MAJOR versions represent breaking changes
 2. MINOR versions represent added functionality in a backwards-compatible manner
 3. PATCH versions represent backwards-compatible bug fixes
@@ -57,7 +59,7 @@ Please read through our [contributing guidelines](CONTRIBUTING.md). Included are
 
 ## LICENSE
 
-Copyright 2017 Cerner Innovation, Inc.
+Copyright 2018 Cerner Innovation, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
