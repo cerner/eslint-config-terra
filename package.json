@@ -2,7 +2,7 @@
   "name": "eslint-config-terra",
   "version": "0.0.0",
   "description": "Terra Eslint Config",
-  "main": "index.js",
+  "main": "eslint.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cerner/eslint-config-terra"
@@ -19,6 +19,11 @@
   },
   "homepage": "https://github.com/cerner/eslint-config-terra",
   "scripts": {
+    "clean": "rimraf node_modules",
+    "clean:install": "npm run clean && npm install",
+    "danger": "danger ci",
+    "lint": "eslint --ext .js,.jsx .",
+    "prepublishOnly": "npm run lint",
     "release:major": "node scripts/release/release.js major",
     "release:minor": "node scripts/release/release.js minor",
     "release:patch": "node scripts/release/release.js patch"
@@ -27,11 +32,12 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-compat": "^2.3.0",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.9.1"
   },
   "devDependencies": {
+    "rimraf": "^2.6.1",
     "shelljs": "^0.7.7"
   }
 }

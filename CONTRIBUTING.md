@@ -12,7 +12,7 @@ Thanks.
 * Check that the issue has not already been fixed in the `master` branch.
 * Open an issue with a descriptive title and a summary.
 * Please be as clear and explicit as you can in your description of the problem.
-* Please state the version of Operating System, Browser, and terra-toolkit you are using in the description.
+* Please state the version of Operating System, Browser, and eslint-config-terra you are using in the description.
 * Include any relevant code in the issue summary.
 
 ## Pull Requests
@@ -32,7 +32,7 @@ Thanks.
 ## Project Governance
 * This project is maintained and governed following the [terra governance document](https://github.com/cerner/terra-ui/blob/master/GOVERNANCE.md).
 
-[1]: https://github.com/cerner/browserslist-config-terra/issues
+[1]: https://github.com/cerner/eslint-config-terra/issues
 [2]: http://gun.io/blog/how-to-github-fork-branch-and-pull-request
 [3]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [4]: ./CONTRIBUTORS.md
