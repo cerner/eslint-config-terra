@@ -18,6 +18,12 @@
     "url": "https://github.com/cerner/eslint-config-terra/issues"
   },
   "homepage": "https://github.com/cerner/eslint-config-terra",
+  "browserslist": [
+    "extends browserslist-config-terra"
+  ],
+  "eslintConfig": {
+    "extends": "terra"
+  },
   "scripts": {
     "clean": "rimraf node_modules",
     "clean:install": "npm run clean && npm install",
