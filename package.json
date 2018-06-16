@@ -18,17 +18,11 @@
     "url": "https://github.com/cerner/eslint-config-terra/issues"
   },
   "homepage": "https://github.com/cerner/eslint-config-terra",
-  "browserslist": [
-    "extends browserslist-config-terra"
-  ],
-  "eslintConfig": {
-    "extends": "terra"
-  },
   "scripts": {
     "clean": "rimraf node_modules",
     "clean:install": "npm run clean && npm install",
     "danger": "danger ci",
-    "lint": "eslint --ext .js,.jsx .",
+    "lint": "eslint -c eslint.config.js --ext .js,.jsx .",
     "prepublishOnly": "npm run lint",
     "release:major": "node scripts/release/release.js major",
     "release:minor": "node scripts/release/release.js minor",
