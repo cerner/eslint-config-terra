@@ -8,7 +8,7 @@
   Terra Eslint Config
 </h1>
 
-[![NPM version](http://img.shields.io/npm/v/terra-toolkit.svg)](https://www.npmjs.org/package/eslint-config-terra)
+[![NPM version](http://img.shields.io/npm/v/eslint-config-terra.svg)](https://www.npmjs.org/package/eslint-config-terra)
 
 Terra's sharable ESLint configuration for their UI library and build tools.
 
