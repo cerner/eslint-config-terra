@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+
+1.1.0 - (July 11, 2018)
+------------------
 ### Changed
 * Updated 'jsx-a11y/label-has-for' to require id or nested input for label mapping
 
