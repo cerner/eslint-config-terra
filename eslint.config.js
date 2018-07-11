@@ -16,8 +16,8 @@ module.exports = {
     'compat/compat': 'error',
     'jsx-a11y/label-has-for': [2, {
       required: {
-        some: ['nesting', 'id']
-      }
+        some: ['nesting', 'id'],
+      },
     }],
   },
   globals: {
