@@ -14,6 +14,11 @@ module.exports = {
     'max-len': 'off', // Remove warnings on max line length exceeding 100 characters
     'react/require-default-props': 'off', // Disabled the requirement to default all non-required props
     'compat/compat': 'error',
+    'jsx-a11y/label-has-for': [2, {
+      required: {
+        some: ['nesting', 'id'],
+      },
+    }],
   },
   globals: {
     shallow: true,
