@@ -25,7 +25,7 @@ module.exports = {
     "jsx-a11y/label-has-associated-control": [2, {
       "assert": "either"
     }],
-    "prefer-destructuring": 'off',
+    "react/destructuring-assignment": 'off',
   },
   globals: {
     shallow: true,
