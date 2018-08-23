@@ -3,11 +3,14 @@ ChangeLog
 
 Unreleased
 -----------------
+
+2.0.0 - (August 23, 2018)
+------------------
 ### Changed
-* Update dependencies to ESLint v5 compatible versions
+* Update ESLint and related dependencies to ESLint v5 compatible versions
 * Disabled the deprecated `jsx-a11y/label-has-for rule`. More info about this rule deprecation here: https://github.com/evcohen/eslint-plugin-jsx-a11y/releases/tag/v6.1.0
-* Replaced `jsx-a11y/label-has-for` rule with new `jsx-a11y/label-has-associated-control`.
-* Disabled react/destructuring-assignment.
+* Replaced `jsx-a11y/label-has-for` rule with new `jsx-a11y/label-has-associated-control` rule
+* Disabled `react/destructuring-assignment` rule
 
 1.1.0 - (July 11, 2018)
 ------------------
