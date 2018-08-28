@@ -25,9 +25,22 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': [2, { assert: 'either' }],
     'react/destructuring-assignment': 'off',
   },
-  globals: {
-    shallow: true,
-    render: true,
-    mount: true,
-  },
+  overrides: [
+    {
+      files: ['**/jest/**/*.test.*'],
+      globals: {
+        mount: true,
+        shallow: true,
+        render: true,
+      },
+    },
+    {
+      files: ['**/wdio/**/*-spec.*'],
+      globals: {
+        before: true,
+        browser: true,
+        Terra: true,
+      },
+    },
+  ],
 };
