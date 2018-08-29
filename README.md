@@ -11,7 +11,9 @@
 [![NPM version](https://badgen.net/npm/v/eslint-config-terra)](https://www.npmjs.org/package/eslint-config-terra)
 [![License](https://badgen.net/github/license/cerner/eslint-config-terra)](https://github.com/cerner/eslint-config-terra/blob/master/LICENSE)
 [![Build Status](https://badgen.net/travis/cerner/eslint-config-terra)](https://travis-ci.org/cerner/eslint-config-terra)
+[![Dependencies status](https://badgen.net/david/dep/cerner/eslint-config-terra)](https://david-dm.org/cerner/eslint-config-terra)
 [![devDependencies status](https://badgen.net/david/dev/cerner/eslint-config-terra)](https://david-dm.org/cerner/eslint-config-terra?type=dev)
+
 
 Terra's sharable ESLint configuration for their UI library and build tools.
 
