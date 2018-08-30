@@ -42,7 +42,7 @@
     "danger": "^3.7.14",
     "eslint": "^5.0.0",
     "rimraf": "^2.6.1",
-    "shelljs": "^0.7.7"
+    "shelljs": "^0.8.2"
   },
   "eslintConfig": {
     "extends": "./eslint.config.js"
