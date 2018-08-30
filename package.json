@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-terra",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Terra Eslint Config",
   "main": "eslint.config.js",
   "repository": {
