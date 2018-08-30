@@ -3,6 +3,10 @@ ChangeLog
 
 Unreleased
 -----------------
+
+2.1.0 - (August 29, 2018)
+------------------
+### Changed
 * Updated mount, shallow, and render to only be globals for test files recursively under a "jest" directory
 * Added before, browser, and Terra as globals for test files recursively under a "wdio" directory
 
