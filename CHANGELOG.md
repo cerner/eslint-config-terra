@@ -3,6 +3,7 @@ ChangeLog
 
 Unreleased
 -----------------
+### Changed
 * Added after as globals for test files recursively under a "wdio" directory
 
 2.1.0 - (August 29, 2018)
