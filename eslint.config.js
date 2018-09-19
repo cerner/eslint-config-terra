@@ -37,6 +37,7 @@ module.exports = {
     {
       files: ['**/wdio/**/*-spec.*'],
       globals: {
+        after: true,
         before: true,
         browser: true,
         Terra: true,
