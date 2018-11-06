@@ -24,6 +24,18 @@ module.exports = {
     // This config updates the rule to require one or the other.
     'jsx-a11y/label-has-associated-control': [2, { assert: 'either' }],
     'react/destructuring-assignment': 'off',
+    'import/no-extraneous-dependencies': ['error', {
+      devDependencies: [
+        'jest/**', // mocha, rspec-like pattern
+        'test.{js,jsx}', // repos with a single test file
+        'test-*.{js,jsx}', // repos with multiple top-level test files
+        '**/*{.,_-}{test,spec}.{js,jsx}', // tests where the extension or filename suffix denotes that it is a test
+        '**/jest.config.js', // jest config
+        '**/webpack.config.js', // webpack config
+        '**/webpack.config.*.js', // webpack config
+      ],
+      optionalDependencies: false,
+    }],
   },
   overrides: [
     {
