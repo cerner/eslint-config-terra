@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+### Added
+* Rule override to turn off the `no-unused-expression` rule for jest or wdio test files.
+
 ### Changed
 * Added after as globals for test files recursively under a "wdio" directory
 
