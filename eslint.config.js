@@ -29,7 +29,7 @@ module.exports = {
     {
       files: ['**/jest/**/*.test.*'],
       rules: {
-        'no-unused-expressions": 'off',
+        'no-unused-expressions': 'off',
       },
       globals: {
         mount: true,
@@ -40,7 +40,7 @@ module.exports = {
     {
       files: ['**/wdio/**/*-spec.*'],
       rules: {
-        'no-unused-expressions": 'off',
+        'no-unused-expressions': 'off',
       },
       globals: {
         after: true,
