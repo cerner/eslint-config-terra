@@ -1,5 +1,8 @@
 module.exports = {
-  extends: 'airbnb',
+  extends: [
+    'airbnb',
+    './rules/terra.js',
+  ],
   plugins: [
     'react',
     'jsx-a11y',
@@ -24,6 +27,7 @@ module.exports = {
     // This config updates the rule to require one or the other.
     'jsx-a11y/label-has-associated-control': [2, { assert: 'either' }],
     'react/destructuring-assignment': 'off',
+    // 'terra/no-css-selector-syntax': 'error',
   },
   overrides: [
     {
