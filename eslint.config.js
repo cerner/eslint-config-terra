@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'airbnb',
-    './rules/terra.js',
+    'plugin:terra/recommended',
   ],
   plugins: [
     'react',
@@ -28,4 +28,23 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': [2, { assert: 'either' }],
     'react/destructuring-assignment': 'off',
   },
+  overrides: [
+    {
+      files: ['**/jest/**/*.test.*'],
+      globals: {
+        mount: true,
+        shallow: true,
+        render: true,
+      },
+    },
+    {
+      files: ['**/wdio/**/*-spec.*'],
+      globals: {
+        after: true,
+        before: true,
+        browser: true,
+        Terra: true,
+      },
+    },
+  ],
 };
