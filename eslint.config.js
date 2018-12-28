@@ -27,25 +27,5 @@ module.exports = {
     // This config updates the rule to require one or the other.
     'jsx-a11y/label-has-associated-control': [2, { assert: 'either' }],
     'react/destructuring-assignment': 'off',
-    // 'terra/no-css-selector-syntax': 'error',
   },
-  overrides: [
-    {
-      files: ['**/jest/**/*.test.*'],
-      globals: {
-        mount: true,
-        shallow: true,
-        render: true,
-      },
-    },
-    {
-      files: ['**/wdio/**/*-spec.*'],
-      globals: {
-        after: true,
-        before: true,
-        browser: true,
-        Terra: true,
-      },
-    },
-  ],
 };
