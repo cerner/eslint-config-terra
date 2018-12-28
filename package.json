@@ -22,7 +22,7 @@
     "clean": "rimraf node_modules",
     "clean:install": "npm run clean && npm install",
     "danger": "danger ci",
-    "lint": "eslint --print-config eslint.config.js",
+    "lint": "eslint --ext .js,.jsx .",
     "prepublishOnly": "npm run lint",
     "release:major": "node scripts/release/release.js major",
     "release:minor": "node scripts/release/release.js minor",
