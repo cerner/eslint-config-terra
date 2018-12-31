@@ -8,6 +8,7 @@ Unreleased
 
 ### Changed
 * Added after as globals for test files recursively under a "wdio" directory
+* Tempararily lock-down `eslint-plugin-react`. V7.12.0 was released with bugs and has not yet been fixed. Locking this down until a fix is released.
 
 2.1.0 - (August 29, 2018)
 ------------------
