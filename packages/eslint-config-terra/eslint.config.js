@@ -1,5 +1,8 @@
 module.exports = {
-  extends: 'airbnb',
+  extends: [
+    'airbnb',
+    'plugin:terra/recommended',
+  ],
   plugins: [
     'react',
     'jsx-a11y',
