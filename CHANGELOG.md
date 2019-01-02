@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+
+2.2.0 - (January 2, 2019)
+-----------------
 ### Added
 * Rule override to turn off the `no-unused-expression` rule for jest or wdio test files.
 
