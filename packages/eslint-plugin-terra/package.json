@@ -1,0 +1,48 @@
+{
+  "name": "eslint-plugin-terra",
+  "version": "0.0.0",
+  "description": "Terra's Eslint Plugin",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerner/eslint-plugin-terra"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "Cerner",
+    "Terra"
+  ],
+  "author": "Cerner Corporation",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cerner/eslint-plugin-terra/issues"
+  },
+  "homepage": "https://github.com/cerner/eslint-plugin-terra",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "danger": "../../node_modules/.bin/danger ci --dangerfile ./dangerfile.js",
+    "test": "npm run test:lint && npm run test:unit",
+    "test:lint": "eslint .",
+    "test:unit": "mocha tests --recursive --reporter dot"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "max-len": "off"
+    },
+    "overrides": [{
+      "files": [ "tests/rules/*.js" ],
+      "env": { "mocha": true }
+    }]
+  }
+}

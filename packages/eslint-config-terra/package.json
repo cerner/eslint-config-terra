@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-terra",
+  "version": "2.1.0",
+  "description": "Terra Eslint Config",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cerner/eslint-config-terra"
+  },
+  "keywords": [
+    "eslint-config",
+    "Cerner",
+    "Terra"
+  ],
+  "author": "Cerner Corporation",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cerner/eslint-config-terra/issues"
+  },
+  "homepage": "https://github.com/cerner/eslint-config-terra",
+  "scripts": {
+    "clean": "rimraf node_modules",
+    "danger": "../../node_modules/.bin/danger ci --dangerfile ./dangerfile.js",
+    "test:lint": "eslint --ext .js ."
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-compat": "^2.5.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0"
+  },
+  "eslintConfig": {
+    "extends": "./eslint.config.js"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-terra",
-  "version": "2.2.0",
+  "version": "2.1.0",
   "description": "Terra Eslint Config",
   "main": "eslint.config.js",
   "repository": {
@@ -8,7 +8,6 @@
     "url": "git+https://github.com/cerner/eslint-config-terra"
   },
   "keywords": [
-    "eslint",
     "eslint-config",
     "Cerner",
     "Terra"
@@ -20,32 +19,21 @@
   },
   "homepage": "https://github.com/cerner/eslint-config-terra",
   "scripts": {
-    "clean": "rimraf node_modules",
-    "clean:install": "npm run clean && npm install",
-    "danger": "danger ci",
-    "lint": "eslint --ext .js,.jsx .",
-    "prepublishOnly": "npm run lint",
-    "release:major": "node scripts/release/release.js major",
-    "release:minor": "node scripts/release/release.js minor",
-    "release:patch": "node scripts/release/release.js patch"
-  },
-  "dependencies": {
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-compat": "^2.5.1",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "7.11.0"
-  },
-  "peerDependencies": {
-    "eslint": "^5.0.0"
+    "bootstrap:hoist": "lerna bootstrap --hoist",
+    "clean:all": "lerna clean --yes && shx rm -rf node_modules",
+    "clean:install": "npm run clean:all && npm install",
+    "danger": "lerna run danger ci",
+    "postinstall": "npm run bootstrap:hoist",
+    "publish": "npm whoami && npm test && lerna publish",
+    "test": "npm run test:lint && npm run test:unit",
+    "test:lint": "lerna run test:lint",
+    "test:unit": "lerna run test:unit"
   },
   "devDependencies": {
     "danger": "^3.7.14",
     "eslint": "^5.0.0",
+    "lerna": "^3.8.0",
     "rimraf": "^2.6.1",
-    "shelljs": "^0.8.2"
-  },
-  "eslintConfig": {
-    "extends": "./eslint.config.js"
+    "shx": "^0.3.2"
   }
 }
