@@ -19,15 +19,20 @@
   },
   "homepage": "https://github.com/cerner/eslint-config-terra",
   "scripts": {
-    "bootstrap:hoist": "lerna bootstrap --hoist",
     "clean:all": "lerna clean --yes && shx rm -rf node_modules",
     "clean:install": "npm run clean:all && npm install",
     "danger": "lerna run danger ci",
-    "postinstall": "npm run bootstrap:hoist",
     "publish": "npm whoami && npm test && lerna publish",
     "test": "npm run test:lint && npm run test:unit",
     "test:lint": "lerna run test:lint",
     "test:unit": "lerna run test:unit"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-compat": "^2.5.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0"
   },
   "devDependencies": {
     "danger": "^3.7.14",
