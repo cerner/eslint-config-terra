@@ -8,6 +8,7 @@
     "url": "git+https://github.com/cerner/eslint-config-terra"
   },
   "keywords": [
+    "eslint",
     "eslint-config",
     "Cerner",
     "Terra"
