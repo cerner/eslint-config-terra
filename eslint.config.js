@@ -31,6 +31,9 @@ module.exports = {
   overrides: [
     {
       files: ['**/jest/**/*.test.*'],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
       globals: {
         mount: true,
         shallow: true,
@@ -39,6 +42,9 @@ module.exports = {
     },
     {
       files: ['**/wdio/**/*-spec.*'],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
       globals: {
         after: true,
         before: true,
