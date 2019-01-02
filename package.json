@@ -32,8 +32,7 @@
     "eslint-plugin-compat": "^2.5.1",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.0",
-    "eslint-plugin-terra": "file:./packages/eslint-plugin-terra"
+    "eslint-plugin-react": "^7.11.0"
   },
   "devDependencies": {
     "danger": "^3.7.14",
