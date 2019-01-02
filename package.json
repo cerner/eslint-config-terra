@@ -2,7 +2,7 @@
   "name": "eslint-config-terra",
   "version": "2.1.0",
   "description": "Terra Eslint Config",
-  "main": "eslint.config.js",
+  "main": "./packages/eslint-config-terra/eslint.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cerner/eslint-config-terra"
