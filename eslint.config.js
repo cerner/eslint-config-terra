@@ -24,6 +24,9 @@ module.exports = {
     // This config updates the rule to require one or the other.
     'jsx-a11y/label-has-associated-control': [2, { assert: 'either' }],
     'react/destructuring-assignment': 'off',
+    // This updates the rule below to throw a warning rather than an error
+    // when using eslint-plugin-react 7.12.2 or above.
+    'react/jsx-wrap-multilines': 'warn',
   },
   overrides: [
     {
