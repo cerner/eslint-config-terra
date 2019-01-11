@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+### Changed
+* Unlocked 'eslint-plugin-react' to ^7.12.2
+* Updated config rules to make react/jsx-wrap-multilines a warning for passivity
 
 2.2.0 - (January 2, 2019)
 -----------------
