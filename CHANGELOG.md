@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+### Added
+* React Hooks plugin and rules
+
 ### Changed
 * Unlocked 'eslint-plugin-react' to ^7.12.2
 * Updated config rules to make react/jsx-wrap-multilines a warning for passivity
