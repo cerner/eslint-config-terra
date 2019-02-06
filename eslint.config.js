@@ -2,6 +2,7 @@ module.exports = {
   extends: 'airbnb',
   plugins: [
     'react',
+    'react-hooks',
     'jsx-a11y',
     'import',
     'compat',
@@ -27,6 +28,7 @@ module.exports = {
     // This updates the rule below to throw a warning rather than an error
     // when using eslint-plugin-react 7.12.2 or above.
     'react/jsx-wrap-multilines': 'warn',
+    'react-hooks/rules-of-hooks': 'error',
   },
   overrides: [
     {
