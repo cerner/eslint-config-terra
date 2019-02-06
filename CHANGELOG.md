@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+
+2.3.0 - (February 6, 2019)
+-----------------
 ### Added
 * React Hooks plugin and rules
 
