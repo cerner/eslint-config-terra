@@ -16,13 +16,7 @@ module.exports = {
     'max-len': 'off',
     // Disabled the requirement to default all non-required props
     'react/require-default-props': 'off',
-    'compat/compat': ['error', {
-      settings: {
-        polyfills: [
-          'object-values', // babel-polyfill handles this
-        ]
-      }
-    }],
+    'compat/compat': 'error',
     // Disable this rule as it has been marked as deprecated in jsx-a11y plugin
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/releases/tag/v6.1.0
     'jsx-a11y/label-has-for': 'off',
