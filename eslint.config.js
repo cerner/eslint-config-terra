@@ -30,6 +30,9 @@ module.exports = {
     'react/jsx-wrap-multilines': 'warn',
     'react-hooks/rules-of-hooks': 'error',
   },
+  settings: {
+    polyfills: ['object-values'],
+  },
   overrides: [
     {
       files: ['**/jest/**/*.test.*'],
