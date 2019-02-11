@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+
+2.4.0 - (February 11, 2019)
+-----------------
 ### Added
 * Setting to eslint-plugin-compat config to denote polyfill usage for `Object.values`.
 
