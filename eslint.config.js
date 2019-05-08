@@ -29,6 +29,14 @@ module.exports = {
     // when using eslint-plugin-react 7.12.2 or above.
     'react/jsx-wrap-multilines': 'warn',
     'react-hooks/rules-of-hooks': 'error',
+    'react/forbid-component-props': [
+      1,
+      {
+        forbid: [
+          'style',
+        ],
+      },
+    ],
   },
   settings: {
     polyfills: ['object-values'],
