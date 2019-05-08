@@ -6,6 +6,7 @@ module.exports = {
     'jsx-a11y',
     'import',
     'compat',
+    'terra',
   ],
   env: {
     browser: true,
@@ -29,6 +30,7 @@ module.exports = {
     // when using eslint-plugin-react 7.12.2 or above.
     'react/jsx-wrap-multilines': 'warn',
     'react-hooks/rules-of-hooks': 'error',
+    'terra/no-inline-styles': 1,
   },
   settings: {
     polyfills: ['object-values'],
