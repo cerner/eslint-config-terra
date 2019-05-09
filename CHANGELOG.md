@@ -4,6 +4,9 @@ ChangeLog
 Unreleased
 -----------------
 
+### Added
+* A warning to discourage inline styles 
+
 2.4.0 - (February 11, 2019)
 -----------------
 ### Added
