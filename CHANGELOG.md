@@ -4,8 +4,10 @@ ChangeLog
 Unreleased
 -----------------
 
+2.5.0 - (May 9, 2019)
+-----------------
 ### Added
-* A warning to discourage inline styles 
+* A warning to discourage inline styles
 
 2.4.0 - (February 11, 2019)
 -----------------
