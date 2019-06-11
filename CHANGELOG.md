@@ -3,6 +3,8 @@ ChangeLog
 
 Unreleased
 -----------------
+### Changed
+* Replace DangerJS integration with probot-changelog
 
 2.5.0 - (May 9, 2019)
 -----------------
