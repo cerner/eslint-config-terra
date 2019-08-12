@@ -38,6 +38,8 @@ module.exports = {
     polyfills: [
       'Map',
       'Number.isNaN',
+      'Number.isInteger',
+      'Number.parseFloat',
       'Object.assign',
       'Object.values',
       'Set',
