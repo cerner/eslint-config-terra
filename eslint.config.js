@@ -35,7 +35,12 @@ module.exports = {
     'react/state-in-constructor': 'off',
   },
   settings: {
-    polyfills: ['object-values'],
+    polyfills: [
+      'Object.assign',
+      'Object.values',
+      'Set',
+      'Map',
+    ],
   },
   overrides: [
     {
