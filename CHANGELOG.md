@@ -5,8 +5,7 @@ Unreleased
 -----------------
 ### Breaking Changes
 * Updated eslint peer dependency to `^6.1.0`
-* Update eslint-config-airbnb
-dependency to `^18.0.0`
+* Update eslint-config-airbnb dependency to `^18.0.0`
 * Update eslint-plugin-compat dependency to `^3.3.0`
 
 ### Changed
