@@ -36,10 +36,11 @@ module.exports = {
   },
   settings: {
     polyfills: [
+      'Map',
+      'Number.isNaN',
       'Object.assign',
       'Object.values',
       'Set',
-      'Map',
     ],
   },
   overrides: [
