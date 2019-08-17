@@ -33,6 +33,8 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-props-no-spreading': 'off',
     'react/state-in-constructor': 'off',
+    'react/jsx-fragments': 'off',
+    'arrow-parens': 'off',
   },
   settings: {
     polyfills: [
