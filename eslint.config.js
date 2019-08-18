@@ -38,6 +38,7 @@ module.exports = {
   },
   settings: {
     polyfills: [
+      'Array.from',
       'Map',
       'Number.isNaN',
       'Number.isInteger',
