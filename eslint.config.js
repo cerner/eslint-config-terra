@@ -44,6 +44,7 @@ module.exports = {
       'Number.parseFloat',
       'Object.assign',
       'Object.values',
+      'Object.entries',
       'Set',
     ],
   },
