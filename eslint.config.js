@@ -27,9 +27,6 @@ module.exports = {
     'react/destructuring-assignment': 'off',
     'react/forbid-component-props': [1, { forbid: ['style'] }],
     'react/forbid-dom-props': [1, { forbid: ['style'] }],
-    // This updates the rule below to throw a warning rather than an error
-    // when using eslint-plugin-react 7.12.2 or above.
-    'react/jsx-wrap-multilines': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react/jsx-props-no-spreading': 'off',
     'react/state-in-constructor': 'off',
