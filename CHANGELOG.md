@@ -3,8 +3,16 @@ ChangeLog
 
 Unreleased
 -----------------
+### Breaking Changes
+* Updated eslint peer dependency to `^6.1.0`
+* Update eslint-config-airbnb dependency to `^18.0.0`
+* Update eslint-plugin-compat dependency to `^3.3.0`
+* Enable `react/jsx-wrap-multilines` rule
+* Updating warning for style prop to produce an error instead of a warning
+
 ### Changed
 * Replace DangerJS integration with probot-changelog
+* Removed rimraf devDependency and replaced with `rm -rf`
 
 2.5.0 - (May 9, 2019)
 -----------------

@@ -25,15 +25,26 @@ module.exports = {
     // This config updates the rule to require one or the other.
     'jsx-a11y/label-has-associated-control': [2, { assert: 'either' }],
     'react/destructuring-assignment': 'off',
-    'react/forbid-component-props': [1, { forbid: ['style'] }],
-    'react/forbid-dom-props': [1, { forbid: ['style'] }],
-    // This updates the rule below to throw a warning rather than an error
-    // when using eslint-plugin-react 7.12.2 or above.
-    'react/jsx-wrap-multilines': 'warn',
+    'react/forbid-component-props': [2, { forbid: ['style'] }],
+    'react/forbid-dom-props': [2, { forbid: ['style'] }],
     'react-hooks/rules-of-hooks': 'error',
+    'react/jsx-props-no-spreading': 'off',
+    'react/state-in-constructor': 'off',
+    'react/jsx-fragments': 'off',
+    'arrow-parens': 'off',
   },
   settings: {
-    polyfills: ['object-values'],
+    polyfills: [
+      'Array.from',
+      'Map',
+      'Number.isNaN',
+      'Number.isInteger',
+      'Number.parseFloat',
+      'Object.assign',
+      'Object.values',
+      'Object.entries',
+      'Set',
+    ],
   },
   overrides: [
     {
