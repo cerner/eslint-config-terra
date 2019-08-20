@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+
+3.0.0 - (August 20, 2019)
+-----------------
 ### Breaking Changes
 * Updated eslint peer dependency to `^6.1.0`
 * Update eslint-config-airbnb dependency to `^18.0.0`
