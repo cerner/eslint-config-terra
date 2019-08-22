@@ -3,6 +3,8 @@ ChangeLog
 
 Unreleased
 -----------------
+### Changed
+* Update eslint-plugin-react-hooks dependency to `^2.0.1`
 
 3.0.0 - (August 20, 2019)
 -----------------
