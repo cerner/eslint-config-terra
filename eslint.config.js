@@ -28,6 +28,7 @@ module.exports = {
     'react/forbid-component-props': [2, { forbid: ['style'] }],
     'react/forbid-dom-props': [2, { forbid: ['style'] }],
     'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
     'react/jsx-props-no-spreading': 'off',
     'react/state-in-constructor': 'off',
     'react/jsx-fragments': 'off',
