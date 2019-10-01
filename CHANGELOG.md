@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+
+3.0.2 - (October 1, 2019)
+-----------------
 ### Changed
 * Pin eslint-plugin-react dependency to `7.14.3`
 
