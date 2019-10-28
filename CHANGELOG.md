@@ -3,6 +3,8 @@ ChangeLog
 
 Unreleased
 -----------------
+### Added
+* Added rule override for `no-multiple-empty-lines` to warn on multiple consecutive empty lines
 
 3.0.2 - (October 1, 2019)
 -----------------

@@ -24,6 +24,7 @@ module.exports = {
     // and include a id/for attribute mapping with label.
     // This config updates the rule to require one or the other.
     'jsx-a11y/label-has-associated-control': [2, { assert: 'either' }],
+    'no-multiple-empty-lines': [1, { max: 1 }],
     'react/destructuring-assignment': 'off',
     'react/forbid-component-props': [2, { forbid: ['style'] }],
     'react/forbid-dom-props': [2, { forbid: ['style'] }],
