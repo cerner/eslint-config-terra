@@ -19,7 +19,7 @@
     "url": "https://github.com/cerner/eslint-config-terra/issues"
   },
   "engines": {
-    "node": "^8.10.0 || ^10.13.0"
+    "node": "^8.10.0 || ^10.13.0 || >=11.10.1"
   },
   "homepage": "https://github.com/cerner/eslint-config-terra",
   "scripts": {
