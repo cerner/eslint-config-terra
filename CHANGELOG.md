@@ -3,6 +3,9 @@ ChangeLog
 
 Unreleased
 -----------------
+
+3.2.0 - (November 7, 2019)
+-----------------
 ### Added
 * Added minimum node engine version of 8.10.0, 10.13.0, or 11.10.1 in package.json
 
