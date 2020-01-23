@@ -73,11 +73,9 @@ module.exports = {
       },
     },
     {
-      "files": [
-        "**/*/terra-dev-site/**/*.jsx"
-      ],
-      "rules": {
-        "import/no-unresolved": "off",
+      files: ['**/*/terra-dev-site/**/*.jsx'],
+      rules: {
+        'import/no-unresolved': 'off',
       },
     },
   ],
