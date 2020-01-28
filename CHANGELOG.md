@@ -3,6 +3,8 @@ ChangeLog
 
 Unreleased
 -----------------
+### Changed
+* Update copyright to include 2020
 
 ### Added
 * Added new override for relative package imports within terra-dev-site example files
