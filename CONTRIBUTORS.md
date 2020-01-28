@@ -6,6 +6,7 @@ Cerner Corporation
 - Daniel Vu [@dv297]
 - Stephen Esser [@StephenEsser]
 - Ben Cai [@benbcai]
+- Tyler Biethman [@tbiethman]
 
 [@emilyrohrbough]: https://github.com/emilyrohrbough
 [@mjhenkes]: https://github.com/mjhenkes
@@ -13,3 +14,4 @@ Cerner Corporation
 [@dv297]: https://github.com/dv297
 [@StephenEsser]: https://github.com/StephenEsser
 [@benbcai]: https://github.com/benbcai
+[@tbiethman]: https://github.com/tbiethman
