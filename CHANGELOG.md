@@ -6,6 +6,9 @@ Unreleased
 ### Changed
 * Update copyright to include 2020
 
+### Added
+* Added new override for relative package imports within terra-dev-site example files
+
 3.2.0 - (November 7, 2019)
 -----------------
 ### Added
