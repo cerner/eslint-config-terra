@@ -3,6 +3,8 @@ ChangeLog
 
 Unreleased
 -----------------
+### Added
+* Add full stack specs to lint overrides to ignore undefined global lint errors.
 
 3.3.0 - (January 28, 2020)
 -----------------
