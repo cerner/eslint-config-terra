@@ -7,6 +7,7 @@ Cerner Corporation
 - Stephen Esser [@StephenEsser]
 - Ben Cai [@benbcai]
 - Tyler Biethman [@tbiethman]
+- Derek Yu [@yuderekyu]
 
 [@emilyrohrbough]: https://github.com/emilyrohrbough
 [@mjhenkes]: https://github.com/mjhenkes
@@ -15,3 +16,4 @@ Cerner Corporation
 [@StephenEsser]: https://github.com/StephenEsser
 [@benbcai]: https://github.com/benbcai
 [@tbiethman]: https://github.com/tbiethman
+[@yuderekyu]: https://github.com/yuderekyu
